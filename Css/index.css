@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+.contentPage{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.contentTitle {
+    text-align: center;
+    color: blue;
+}
+
+.boxUsser{
+    width: 2px;
+}
