@@ -3,16 +3,43 @@ body{
 }
 
 .contentPage{
-    width: 50%;
-    height: 50%;
-    display: flex;
+    margin: 15px;
 }
 
 .contentTitle {
     text-align: center;
+    text-decoration: dotted;
     color: blue;
+
 }
 
-.boxUsser{
-    width: 2px;
+.boxUser{
+    width: 180px;
+    position: fixed;
+    top: 80px;
+    left: 100px;
+    outline-style: solid;
+    outline-color: red;  
+    text-align: center;
+    background-color: white;  
+}
+
+.boxNotes{
+    position: fixed;
+    width: 420px;
+    right: 200px;
+    text-align: center;
+    outline-color: aqua;
+    outline-style: solid;
+}
+
+.tableNotes{
+    border-spacing: 0px;
+    border: 1px solid coral;
+}
+
+.tableNotes td ,
+.tableNotes th{
+    padding: 10px;
+    border: 1px solid coral;
 }
